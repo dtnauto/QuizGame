@@ -1,7 +1,6 @@
 package com.example.quizgame.view
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,7 +15,6 @@ import androidx.navigation.Navigation.findNavController
 import com.example.quizgame.R
 import com.example.quizgame.viewmodel.AuthViewModel
 import com.google.android.material.textfield.TextInputEditText
-import com.google.firebase.auth.FirebaseUser
 
 class SignUpFragment : Fragment() {
 
